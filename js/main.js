@@ -12,7 +12,7 @@ function sendMail() {
     const templateID = "template_weg32xf";
   
       emailjs.send(serviceID, templateID, params)
-      .then(res=>{
+      .then((res)=>{
           document.getElementById("name").value = "";
           document.getElementById("email").value = "";
           document.getElementById("message").value = "";
