@@ -23,7 +23,7 @@ function sendMail() {
   
       })
       .catch(err=>console.log(err));
-  
+      alert("Button clicked! Sending mail...");
   }
 
 // custom email sender closed 
