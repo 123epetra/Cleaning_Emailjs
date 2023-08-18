@@ -127,13 +127,13 @@
 						<h4>Sydney's #1 Rated House Cleaners.</h4>
 						<form>
 							<input name="form-type" value="contact" type="hidden">
-							<fieldset>
+							<form onsubmit="sendMail(event)">
 								<input placeholder="Your Name" required type="text" id="name">
 								<input placeholder="Zip Code" required type="number" id="zipcode">
 								<input placeholder="Email Address" required type="email" id="email">
 								<input placeholder="Mobile No." required type="number" id="number">
 								<button class="btn btn-block btn-lg btn-primary" onclick="sendMail()" >Book a cleaning</button>
-							</fieldset>
+							</form>
 						</form>
 					</div>
 				</div>
