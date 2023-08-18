@@ -1,8 +1,5 @@
 // custom email sender
-function sendMail(event) {
-    // Prevent the form from submitting and reloading the page
-    event.preventDefault();
-    console.log("sendMail function called");
+function sendMail() {
     var params = {
       name: document.getElementById("name").value,
       email: document.getElementById("email").value,
