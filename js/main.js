@@ -1,5 +1,6 @@
 // custom email sender
 function sendMail() {
+    console.log("sendMail function called");
     var params = {
       name: document.getElementById("name").value,
       email: document.getElementById("email").value,
